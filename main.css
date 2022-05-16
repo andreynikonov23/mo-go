@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&family=Roboto&display=swap');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+:root{
+    --upper-gradient: #e78182;
+    --lower-gradient: #efd98a;
+    --yellow: #fce38a;
+    --red: #f38181;
+    --black: #333333;
+    --grey: #b6b6b6;
+    --turquoise: #95e1d3;
+    --logos-background: #f8f8f8;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background-image: url(img/eagle.jpg);
+    background-size: cover;
+    margin-bottom: 95px;
+}
+.gradient-background{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(var(--upper-gradient), var(--lower-gradient));
+    opacity: 0.9;
+    z-index: 1;
+}
+header .gradient-background{
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 170px;
+    
+}
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+nav ol{
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+}
+nav li{
+    display: inline-block;
+    width: fit-content;
+    height: 30px;
+}
+nav li:not(.no-hover){
+    margin-right: 55px;
+}
+nav li:hover{
+    color: var(--yellow);
+}
+nav li:not(.no-hover):hover{
+    border-bottom: 3px solid var(--yellow);
+}
+.no-hover:not(:last-child){
+    margin-right: 35px;
+}
+.welcome-block{
+    text-align: center;
+}
+.creative_temp{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    color: white;
+    margin-bottom: 60px;
+}
+.welcome{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 150px;
+    color: white;
+    margin-bottom: 70px;
+}
+.line{
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.learn_more{
+    background-color: transparent;
+    border: 3px solid white;
+    width: 160px;
+    height: 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 155px;
+}
+.learn_more:hover{
+    background-color: white;
+    color: var(--black);
+}
+.new_nav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+    
+}
+.nav_lines{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 25px;
+}
+.nav-red-line{
+    height: 3px;
+    background-color: var(--red);
+    display: inline-block;
+}
+.white-line{
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+}
+.num{
+    font-size: 21px;
+    font-weight: bolder;
+}
+.new_nav .line{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.suphead{
+    text-align: center;
+    color: var(--black);
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.heading{
+    text-align: center;
+    color: var(--black);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.red-line{
+    width: 60px;
+    height: 3px;
+    background-color: var(--red);
+    margin-bottom: 50px;
+}
+.text{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: var(--grey);
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.image-blocks{
+    display: flex;
+    justify-content: space-between;
+}
+.turquoise_block{
+    width: 380px;
+    height: 250px;
+    background-color: var(--turquoise);
+    z-index: 3;
+}
+.image_block{
+    width: 380px;
+    height: 250px;
+    z-index: 2;
+}
+.image_block .gradient-background{
+    display: none;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.img1{
+    background-image: url(img/blog1.jpg);
+    background-size: cover;
+}
+.img2{
+    background-image: url(img/blog2.jpg);
+    background-size: cover;
+}
+.img3{
+    background-image: url(img/blog3.jpg);
+    background-size: cover;
+}
+.icon{
+    margin-bottom: 10px;
+}
+.image_block:hover .gradient-background{
+    display: flex;
+}
+
