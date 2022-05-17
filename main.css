@@ -265,5 +265,217 @@ nav li:not(.no-hover):hover{
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 55px;
+    justify-content: space-between;
 }
+.first_cont{
+    padding-bottom: 50px;
+    border-bottom: 1px solid var(--grey);
+}
+.service_container:last-child{
+    padding-top: 50px;
+    margin-bottom: 120px;
+}
+.serv{
+    display: flex;
+}
+.ic{
+    color: var(--turquoise);
+    font-size: 20px;
+    margin-right: 25px;
+}
+.info-head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+.info-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: var(--grey);
+}
+.feature{
+    background-image: url(img/feature-background.jpg);
+    background-size: cover;
+    height: 883px;
+    margin-bottom: 110px;
+}
+.filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 110px;
+    align-items: center;
+}
+.png{
+    padding-left: 90px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.phone{
+    position: relative;
+    right: 90px;
+    bottom: 40px;
+}
+.photo_block{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    margin-bottom: 120px;
+}
+.photo_block .fa{
+    color: var(--turquoise);
+    font-size: 20px;
+    margin-right: 15px;
+}
+.serv2{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--grey);
+    padding: 15px;
+    cursor: pointer;
+}
+.fa-chevron-down{
+    color: var(--grey);
+}
+.serv2 .info-head{
+    margin-bottom: 0;
+}
+.info2 .info-text{
+    border: 1px solid var(--grey);
+    border-top: 0;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.creative{
+    margin-bottom: 10px;
+}
+.quote{
+    background-color: var(--logos-background);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 120px;
+}
+.slider_block{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.chevron{
+    color: var(--grey);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.right{
+    justify-items: flex-end;
+    justify-content: flex-end;
+}
+.quote_block{
+    display: flex;
+}
+.comment{
+    border: 3px solid var(--turquoise);
+    font-size: 53px;
+    color: var(--turquoise);
+    padding: 40px;
+    margin-right: 60px;
+}
+.q{
+    padding-top: 10px;
+}
+.q_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: var(--grey);
+    margin-bottom: 25px;
+}
+.author_line{
+    display: inline-block;
+    height: 4px;
+    width: 60px;
+    background-color: var(--red);
+    margin-right: 10px;
+}
+.author{
+    font-family:'Kaushan Script', cursive;
+    font-size: 24px;
+    color: var(--black);
+}
+.team1{
+    background-image: url(img/team1.jpg);
+    background-size: cover;
+}
+.team2{
+    background-image: url(img/team2.jpg);
+    background-size: cover;
+}
+.team3{
+    background-image: url(img/team3.jpg);
+    background-size: cover;
+}
+.team_society{
+    width: 60%;
+    display: flex;
+    height: 55px;
+}
+.society{
+    width: 25%;
+    line-height: 55px;
+    text-align: center;
+    background-color: var(--yellow);
+    color: var(--red);
+}
+.society:hover{
+    background-color: var(--red);
+    color: white;
+}
+.logos{
+    background-color: var(--logos-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.logos_img{
+    margin: 0 auto;
+}
+.galery{
+    height: 770px;
+    display: flex;
+}
+.pic1{
+    background-image: url(img/pic1.jpg);
+    background-size: cover;
+}
+.pic2{
+    background-image: url(img/pic2.jpg);
+    background-size: cover;
+}
+.pic3{
+    background-image: url(img/pic4.jpg);
+    background-size: cover;
+}
+.pic4{
+    background-image: url(img/pic4.jpg);
+    background-size: cover;
+}
+.pic5{
+    background-image: url(img/pic6.jpg);
+    background-size: cover;
+}
+.pic6{
+    background-image: url(img/pic6.jpg);
+    background-size: cover;
+}
+.meduza{
+    background-image: url(img/meduza.jpg);
+    background-size: cover;
+}
+
+
 
