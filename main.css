@@ -172,6 +172,7 @@ nav li:not(.no-hover):hover{
     height: 3px;
     background-color: var(--red);
     margin-bottom: 50px;
+    margin: 0 auto 50px;
 }
 .text{
     text-align: center;
@@ -180,14 +181,10 @@ nav li:not(.no-hover):hover{
     color: var(--grey);
     margin-bottom: 100px;
 }
-
-
-
-
-
 .image-blocks{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 110px;
 }
 .turquoise_block{
     width: 380px;
@@ -199,6 +196,9 @@ nav li:not(.no-hover):hover{
     width: 380px;
     height: 250px;
     z-index: 2;
+    position: relative;
+    cursor: pointer;
+    transition: 5s all ease-in-out;
 }
 .image_block .gradient-background{
     display: none;
@@ -228,5 +228,42 @@ nav li:not(.no-hover):hover{
 }
 .image_block:hover .gradient-background{
     display: flex;
+}
+.image_block:hover{
+    bottom: 10px;
+    right: 10px;
+}
+.facts{
+    background-color: var(--turquoise);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.facts_container{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.count{
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.fact_text{
+    font-size: 14px;
+}
+.service{
+    padding-top: 110px;
+}
+.service_container{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
